@@ -19,10 +19,10 @@ Votre branche est votre copie personnelle : vous faites tous vos exercices dessu
 
 Dans IntelliJ :
 
-1. Cliquez sur le nom de la branche en bas à droite de la fenêtre (`main`).
-2. **New Branch…**
-3. Nom : `prenom-nom`, en minuscules, sans espace ni accent (exemple : `marie-dupont`). **Create**.
-4. Vérifiez que `marie-dupont` (et non `main`) est affiché en bas à droite.
+1. Ouvrez le menu **Git > New Branch…** (nouvelle interface : le menu **Git** est sous l'icône ☰ en haut à gauche).
+2. Nom : `prenom-nom`, en minuscules, sans espace ni accent (exemple : `marie-dupont`). **Create**.
+3. Le nom de la branche active s'affiche à côté du nom du projet, en haut à gauche (en bas à droite avec l'ancienne interface).
+4. Vérifiez que `marie-dupont` (et non `main`) est bien la branche active (visible à côté du nom du projet, ou avec `git branch` : la branche active est précédée d'une étoile).
 
 En terminal : `git checkout -b marie-dupont`.
 
@@ -43,7 +43,7 @@ Quand le formateur annonce une mise à jour :
 
 1. Faites un commit de votre travail en cours (étape 4).
 2. **Git > Fetch**.
-3. Cliquez sur votre branche en bas à droite, choisissez `origin/main` puis **Merge into Current**.
+3. **Git > Merge…**, choisissez `origin/main` puis **Merge into Current**.
 
 Terminal : `git fetch origin` puis `git merge origin/main`.
 
