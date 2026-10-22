@@ -1,0 +1,5 @@
+out/
+.idea/workspace.xml
+.idea/shelf/
+*.class
+# Ne pas ignorer .idea/modules : modules.xml s'appuie dessus.
